@@ -1,0 +1,31 @@
+div{
+  height:90px;
+  transition:all 0.5;
+  width:100px;
+  border:20px;
+  float:left;
+  margin:5px;
+  border-radius:50%;
+  animation:anim 1s linear infinite;
+}
+
+div#a{
+  height:100px;
+  transition:.5s all;
+  width:100px;
+  border:20px;
+  float:left;
+  margin:5px;
+  border-radius:50%;
+  animation:anim 1s linear infinite;
+}
+
+
+@keyframes anim{
+  from{
+    transform:rotate(0deg);
+  }
+  to{
+    transform:rotate(360deg);
+  }
+}
